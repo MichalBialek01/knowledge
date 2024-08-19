@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <appender name = "CONSOLE" class="ch.qos.logback/core.ConsoleAppender">
+        <charset>UTF-8</charset>
+        <pattern>%-5level %logger{36} - %msg%n</pattern>
+    </appender>
+
+
+
+    <root level="INFO">
+        <appenfer-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>
